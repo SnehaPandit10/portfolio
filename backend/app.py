@@ -14,13 +14,25 @@ def profile():
 
         "intro": "Hi, I’m Sneha. I’m a software developer with a passion for technology, creativity, fitness and dance. I enjoy building web applications and continuously learning new technologies.",
 
-        "photo": "",
+        #"photo": "",
 
         "hobbies": [
-            "Dance",
-            "Fitness",
-            "Travelling",
-            "Learning new technologies"
+            {
+                "name": "Dance",
+                "link": "https://www.instagram.com/reel/DTUuYYVkbpD/?stkn=Y3J2ZXkwYW44NXFw"
+            },
+            {
+                "name": "Fitness",
+                "link": "https://www.instagram.com/reel/DbdL5hNCJ60/?stkn=cTBlemR6NHllbm5r"
+            },
+            {
+                "name": "Travelling",
+                "link": "https://www.instagram.com/p/DVOZu9dgQaF/?img_index=3&stkn=MjhrMTdoYXlpbDVx"
+            },
+            {
+                "name": "Learning new technologies",
+                "link": "https://github.com/SnehaPandit10"
+            }
         ],
 
         "instagram": "https://www.instagram.com/snehapandit__/",
