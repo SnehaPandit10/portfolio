@@ -5,7 +5,7 @@ function App() {
   const [profile, setProfile] = useState(null);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:5001/api/profile")
+    fetch("https://portfolio-md2a.onrender.com/api/profile")
       .then((response) => response.json())
       .then((data) => {
         setProfile(data);
