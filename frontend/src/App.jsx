@@ -93,21 +93,13 @@ function App() {
 
           {profile.hobbies.map((hobby, index) => (
             <a
-              href={
-                index === 0
-                  ? "https://www.instagram.com/reel/DTUuYYVkbpD/?stkn=Y3J2ZXkwYW44NXFw"
-                  : index === 1
-                  ? "https://www.instagram.com/reel/DbdL5hNCJ60/?stkn=cTBlemR6NHllbm5r"
-                  : index === 2
-                  ? "https://www.instagram.com/p/DVOZu9dgQaF/?img_index=3&stkn=MjhrMTdoYXlpbDVx"
-                  : "https://github.com/SnehaPandit10"
-              }
+              href={hobby.link}
               target="_blank"
               rel="noreferrer"
               className="hobby-card"
               key={index}
             >
-              {hobby}
+              {hobby.name}
             </a>
           ))}
 
