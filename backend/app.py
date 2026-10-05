@@ -9,35 +9,56 @@ CORS(app)
 def profile():
     return jsonify({
         "name": "Sneha Pandit",
-
         "profession": "Software Developer | Dancer",
+        "intro": "I build web applications, move to music, and train hard. Right now I'm learning to build AI-powered products.",
+        "currently": "Learning to build AI projects",
 
-        "intro": "Hi, I’m Sneha. I’m a software developer with a passion for technology, creativity, fitness and dance. I enjoy building web applications and continuously learning new technologies.",
+        # edit this list to match your real stack
+        "skills": ["Python", "Flask", "React", "JavaScript", "REST APIs", "Git"],
 
-        #"photo": "",
+        # ADD YOUR AI PROJECTS HERE as you build them.
+        # status: "Building" | "Live" | "Planned"
+        "projects": [
+            {
+                "title": "My first AI project",
+                "description": "Coming Soon...",
+                "status": "Planned",
+                "tech": ["Python", "LLM API"],
+                # "github": "https://github.com/SnehaPandit10",
+                "demo": ""
+            }
+        ],
 
         "hobbies": [
             {
                 "name": "Dance",
-                "link": "https://www.instagram.com/reel/DTUuYYVkbpD/?stkn=Y3J2ZXkwYW44NXFw"
+                "description": "Where I switch off and let the music lead.",
+                "links": [
+                    "https://www.instagram.com/reel/DTUuYYVkbpD/",
+                    # "https://www.instagram.com/reel/Db-H-Z9ioho/",
+                    # "https://www.instagram.com/reel/DZUJbfTxGhG/",
+                    # "https://www.instagram.com/reel/DEoWR01NbE8/"
+                ]
             },
             {
                 "name": "Fitness",
-                "link": "https://www.instagram.com/reel/DbdL5hNCJ60/?stkn=cTBlemR6NHllbm5r"
+                "description": "Strength training keeps me consistent in everything else.",
+                "links": [
+                    "https://www.instagram.com/reel/DbdL5hNCJ60/",
+                    # "https://www.instagram.com/reel/DdEe1STh087/",
+                    # "https://www.instagram.com/reel/DbXMDH6i_Vz/"
+                ]
             },
             {
-                "name": "Travelling",
-                "link": "https://www.instagram.com/p/DVOZu9dgQaF/?img_index=3&stkn=MjhrMTdoYXlpbDVx"
-            },
-            {
-                "name": "Learning new technologies",
-                "link": "https://github.com/SnehaPandit10"
+                "name": "Traveling",
+                "description": "New places, new ideas.",
+                "links": ["https://www.instagram.com/p/DVOZu9dgQaF/"]
             }
         ],
 
         "instagram": "https://www.instagram.com/snehapandit__/",
-
-        "linkedin": "https://www.linkedin.com/in/sneha-pandit-093207192/"
+        "linkedin": "https://www.linkedin.com/in/sneha-pandit-093207192/",
+        "github": "https://github.com/SnehaPandit10"
     })
 
 
