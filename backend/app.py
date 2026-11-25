@@ -25,7 +25,7 @@ def profile():
                 "status": "Completed",
                 "tech": ["Machine Learning", "StreamLit"],
                 "github": "https://github.com/SnehaPandit10/portfolio",
-                "demo": "https://portfolio-val-92a1.vercel.app/"
+                "demo": "https://movieflix-movie-recommender.streamlit.app/"
             }
         ],
 
