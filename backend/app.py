@@ -20,12 +20,12 @@ def profile():
         # status: "Building" | "Live" | "Planned"
         "projects": [
             {
-                "title": "My first AI project",
-                "description": "Coming Soon...",
-                "status": "Planned",
-                "tech": ["Python", "LLM API"],
-                # "github": "https://github.com/SnehaPandit10",
-                "demo": ""
+                "title": "Movie Recommender",
+                "description": "An interactive movie recommendation system that suggests similar movies based on content such as genre, cast, and director. Built using machine learning and content-based filtering, it helps users discover movies and explore additional details, including posters and movie information.",
+                "status": "Completed",
+                "tech": ["Machine Learning", "StreamLit"],
+                "github": "https://github.com/SnehaPandit10/portfolio",
+                "demo": "https://portfolio-val-92a1.vercel.app/"
             }
         ],
 

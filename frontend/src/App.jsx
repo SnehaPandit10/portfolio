@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 
-// const API_URL = "http://localhost:5001/api/profile";
-const API_URL = "https://portfolio-md2a.onrender.com/api/profile";
+const API_URL = "http://localhost:5001/api/profile";
+// const API_URL = "https://portfolio-md2a.onrender.com/api/profile";
 // const API_URL = "https://portfolio-backend-coral-pi.vercel.app/";
 
 const getLinks = (h) => {
@@ -82,7 +82,9 @@ function App() {
       <section id="projects" className="section">
         <div className="section-head">
           <h2>Projects</h2>
-          <p>Things I've built, with a focus on AI from here on.</p>
+          <p>Things I've built!
+            {/* with a focus on AI from here on. */}
+            </p>
         </div>
 
         {projects.length === 0 ? (
