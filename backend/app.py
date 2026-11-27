@@ -23,9 +23,17 @@ def profile():
                 "title": "Movie Recommender",
                 "description": "An interactive movie recommendation system that suggests similar movies based on content such as genre, cast, and director. Built using machine learning and content-based filtering, it helps users discover movies and explore additional details, including posters and movie information.",
                 "status": "Completed",
-                "tech": ["Machine Learning", "StreamLit"],
+                "tech": ["Machine Learning", "StreamLit", "Python","Scikit-learn"],
                 "github": "https://github.com/SnehaPandit10/portfolio",
                 "demo": "https://movieflix-movie-recommender.streamlit.app/"
+            },
+            {
+                "title": "Email Spam Classifier",
+                "description": "A machine learning model that classifies emails as spam or legitimate (ham) based on their content, It uses NLP techniques such as text clustering tokenization , and TF-IDF vectorization, the trains classifiers such as Naive Bayes and Logistic Regression, evaluated on prediction, recall, and F1 score.",
+                "status": "On-going",
+                "tech": ["Machine Learning","NLP","Scikit-learn"],
+                # "github": "https://github.com/SnehaPandit10/portfolio",
+                # "demo": "https://movieflix-movie-recommender.streamlit.app/"
             }
         ],
 
